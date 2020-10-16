@@ -1,6 +1,6 @@
 #!/bin/bash
 # try running this script with some command line arguments
-# like `bash 9-argument.sh panda swan banana`
+# like `bash 09-arguments.sh panda swan banana`
 
 echo '$1 is' $1
 echo '$2 is' $2
