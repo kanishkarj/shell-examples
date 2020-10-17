@@ -32,3 +32,5 @@ ls ~/*bash* # no files with a . listed
 # if you have them
 echo 'ls ~/.bash*'
 ls ~/.bash*
+
+### TODO: add the thing about a literal *
