@@ -1,6 +1,13 @@
 #!/bin/bash
-# try running this script with both `sh` and `bash`. it does the exact same
-# thing!
+
+echo '
+#########################################
+## Example 5.1:                         #
+## run this script in both sh and bash: #
+## $ sh 05-compatibility.sh             #
+## $ bash 05-compatibility.sh           #
+#########################################
+'
 
 echo "this works in both bash and sh:"
 

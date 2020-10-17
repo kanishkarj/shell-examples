@@ -1,7 +1,14 @@
 #!/bin/bash
 
-# Try running shellcheck on this file!
-# Installation instructions: https://github.com/koalaman/shellcheck#installing
+echo '
+#########################################
+## Example 6.1:                         #
+## Try running shellcheck on this file! #
+## $ shellcheck 06-shellcheck.sh        #
+#########################################
+'
+
+# shellcheck installation instructions: https://github.com/koalaman/shellcheck#installing
 
 filename="filename with spaces.txt"
 ls $filename # this is an error, shellcheck will catch it!
