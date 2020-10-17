@@ -1,6 +1,13 @@
 #!/bin/bash
-# try running this script with some command line arguments
-# like `bash 09-arguments.sh panda swan banana`
+
+echo "
+#############################################
+## Example 9.1:                             #
+## try running this script with some        #
+## command line arguments, like:            #
+## $ bash 09-arguments.sh panda swan banana #
+#############################################
+"
 
 echo '$1 is' $1
 echo '$2 is' $2

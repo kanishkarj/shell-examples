@@ -1,17 +1,27 @@
-printf "\nExample 10.2: type\n==================\n"
-
-echo "let's check the type of some programs:"
+echo "
+############################################
+## Example 10.1:                           #
+## let's check the 'type' of some programs #
+############################################
+"
 
 type alias
 type grep
 type gibberishasdf # doesn't exist
+type ls
+alias ls='ls --color'
 type ls
 type type
 type [
 type if
 type [[
 
-printf "\nExample 10.2: source\n====================\n"
+echo "
+#################################
+## Example 10.2:                #
+## running a script with source #
+#################################
+"
 
 echo "cd.sh changes the directory to files/ and sets a variable called PANDA. First, let's run it with cd:"
 bash files/cd.sh
